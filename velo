@@ -1,3 +1,4 @@
+
 local lplr = game.Players.LocalPlayer
   local player = game:GetService("Players")
   local cam = workspace.CurrentCamera
@@ -146,11 +147,13 @@ local BedwarsSwords = require(game:GetService("ReplicatedStorage").TS.games.bedw
         return returning
     end 
     local HitRemote = Client:Get(bedwars["SwordRemote"])
-    local Distance = {["Value"] = 24}
+    local Distance = {["Value"] = 18}
     local Aurz = true
 
 
-local entity = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua", true))()
+local Gb = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = Gb.CreateLib("Gamebreaker | Bedwars | V3", "BloodTheme")
+local entity = loadstring(game:HttpGet("https://raw.githubusercontent.com/NathTheDev/Project/main/Vape%20Entity", true))()
 
 do
 	local oldcharacteradded = entity.characterAdded
@@ -160,83 +163,10 @@ do
 	entity.fullEntityRefresh()
 end
 
-game.StarterGui:SetCore("SendNotification", { 
-     Title = "Gamebreaker"; 
-     Text = "Loading Hub In 5 Seconds.";
-     Icon = "rbxassetid://10293231248";
-     Duration = 4; 
- }) 
-
-wait(5)
-
-game.StarterGui:SetCore("SendNotification", { 
-     Title = "Gamebreaker"; 
-     Text = "This script is made by Nathan and Monia.";
-     Icon = "rbxassetid://10293231248";
-     Duration = 10; 
- }) 
-
-local ScreenGui = Instance.new("ScreenGui")
-local Main = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-
---Properties:
-
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-Main.Name = "Main"
-Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.Position = UDim2.new(0.363293529, 0, 0.28638497, 0)
-Main.Size = UDim2.new(0, 340, 0, 190)
-Main.Style = Enum.FrameStyle.ChatBlue
-
-TextLabel.Parent = Main
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(-0.025588274, 0, -0.0890700519, 0)
-TextLabel.Size = UDim2.new(0, 325, 0, 50)
-TextLabel.Font = Enum.Font.SciFi
-TextLabel.Text = "Gamebreaker V3"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-TextButton.Parent = Main
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 31, 255)
-TextButton.Position = UDim2.new(0.136470661, 0, 0.458670378, 0)
-TextButton.Size = UDim2.new(0, 224, 0, 58)
-TextButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
-TextButton.Font = Enum.Font.SciFi
-TextButton.Text = "Activate All"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-TextButton.MouseButton1Down:connect(function()
-    local InfiniteJumpEnabled = true 
-     game:GetService("UserInputService").JumpRequest:connect(function() 
-             if InfiniteJumpEnabled then 
-                     game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping") 
-            end 
-     end) 
-end)
-
--- Scripts:
-
-local function LASGYB_fake_script() -- ScreenGui.Script 
-	local script = Instance.new('Script', ScreenGui)
-
-	frame = script.Parent.Main -- Take out {}s, and put name of frame
-	frame.Draggable = true
-	frame.Active = true
-	frame.Selectable = true
-end
-coroutine.wrap(LASGYB_fake_script)()
-
-if Aurz then
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Made By Nath.#4468")
+Tab1Section:NewButton("KillAura", "By Monia", function()
+    if Aurz then
         spawn(function()
             repeat
                 task.wait(0.12)
@@ -270,29 +200,47 @@ if Aurz then
                 end
             until not Aurz
         end)
-end
-
-function WS()
-    lplr.Character.Humanoid.WalkSpeed = 23.3
-end
-
-local specialpos = (workspace.MapCFrames:FindFirstChild("center") and workspace.MapCFrames.center.Value.p == Vector3.new(77, 11, 35))
-            local antivoidpart = Instance.new("Part", Workspace)
-            antivoidpart.Name = "AntiVoidV2"
-            antivoidpart.Size = Vector3.new(2100, 0.5, 2000)
-            antivoidpart.Position = Vector3.new(160.5, 25, 247.5)
-            antivoidpart.Transparency = 0.4
-            antivoidpart.Anchored = true
-            antivoidpart.Touched:connect(function(touchedvoid)
-                if touchedvoid.Parent:FindFirstChild("Humanoid") and touchedvoid.Parent.Name == lplr.Name then
-                    game.Players.LocalPlayer.Character.Humanoid:ChangeState("Jumping")
-                    wait(0.2)
-                    game.Players.LocalPlayer.Character.Humanoid:ChangeState("Jumping")
-                    wait(0.2)
-                    game.Players.LocalPlayer.Character.Humanoid:ChangeState("Jumping")
-          end
+    end
 end)
 
+Tab1Section:NewButton("NoFall", "By Monia", function()
+    local Falling = true
+if Falling then
+                spawn(function()
+                    repeat
+                        task.wait(0.5)
+                        Client:Get("GroundHit"):SendToServer()
+                    until not Falling
+                end)
+            end
+            
+            local InfiniteJumpEnabled = true 
+     game:GetService("UserInputService").JumpRequest:connect(function() 
+             if InfiniteJumpEnabled then 
+                     game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping") 
+            end 
+     end) 
+end)
+
+local shopfunction = debug.getupvalue(require(game:GetService("ReplicatedStorage").TS.games.bedwars.shop["bedwars-shop"]).BedwarsShop.getShopItem, 2)
+local oldnexttier
+local oldtiered
+local shoptier = true
+Tab1Section:NewButton("ShopTierBypass", "By Monia", function()
+    if shoptier then
+    for i,v in pairs(shopfunction) do
+        oldtiered = oldtiered or v.tiered
+        oldnexttier = oldnexttier or v.nextTier
+    end
+    for i,v in pairs(shopfunction) do
+        v.tiered = nil
+        v.nextTier = nil
+    end
+end
+end)
+
+
+Tab1Section:NewButton("BedFucker", "By Monia", function()
 local Distance = {["Value"] = 30}
 local Breaker = true
 if Breaker then
@@ -317,22 +265,4 @@ if Breaker then
         until not Breaker
     end)
 end
-
-local Falling = true
-if Falling then
-                spawn(function()
-                    repeat
-                        task.wait(0.5)
-                        Client:Get("GroundHit"):SendToServer()
-                    until not Falling
-         end)
-end
-
-local CombatConstant = require(game:GetService("ReplicatedStorage").TS.combat["combat-constant"]).CombatConstant
-CombatConstant.RAYCAST_SWORD_CHARACTER_DISTANCE = 18
-local old
-local VeloKnock = true
-if VeloKnock then
-    old = bedwars["KnockbackUtil"].applyKnockback
-    bedwars["KnockbackUtil"].applyKnockback = function() 
-end
+end)
