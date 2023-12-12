@@ -1,0 +1,586 @@
+print("Alysse is loaded")
+
+
+local AlysseBETA = Instance.new("ScreenGui")
+local Alysse = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Line = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local HacksFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local HacksScroll = Instance.new("ScrollingFrame")
+local Hacks = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local Hacks_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Hacks_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Hacks_4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Hacks_5 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Hacks_6 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Hacks_7 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Hacks_8 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Hacks_9 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Hacks_10 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local T = Instance.new("TextLabel")
+local Exit = Instance.new("ImageButton")
+local FrameLine = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Tab1 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Tab1BTN = Instance.new("TextButton")
+local Tab2 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local Tab2BTN = Instance.new("TextButton")
+local ExecutorFrame = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ExecuteFrame = Instance.new("TextBox")
+local ExecuteBTN = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local ClearBTN = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local CPBTN = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local AnotherLine = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local Toggle = Instance.new("ImageButton")
+local UICorner_22 = Instance.new("UICorner")
+
+AlysseBETA.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+AlysseBETA.Name = "AlysseBETA"
+AlysseBETA.Parent = gethui()
+
+Alysse.Name = "Alysse"
+Alysse.Parent = AlysseBETA
+Alysse.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Alysse.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Alysse.BorderSizePixel = 0
+Alysse.Position = UDim2.new(0.0234913714, 0, 0.0315898173, 0)
+Alysse.Size = UDim2.new(0, 443, 0, 316)
+
+UICorner.Parent = Alysse
+
+Line.Name = "Line"
+Line.Parent = Alysse
+Line.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0.205405489, 0, 0.108792461, 0)
+Line.Size = UDim2.new(0, -2, 0, 249)
+
+UICorner_2.Parent = Line
+
+Title.Name = "Title"
+Title.Parent = Alysse
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0255583003, 0, 0.0344924927, 0)
+Title.Size = UDim2.new(0, 77, 0, 34)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Alysse BETA"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+HacksFrame.Name = "HacksFrame"
+HacksFrame.Parent = Alysse
+HacksFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+HacksFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HacksFrame.BorderSizePixel = 0
+HacksFrame.Position = UDim2.new(0.239669487, 0, 0.108786665, 0)
+HacksFrame.Size = UDim2.new(0, 315, 0, 250)
+HacksFrame.Visible = false
+
+UICorner_3.Parent = HacksFrame
+
+HacksScroll.Name = "HacksScroll"
+HacksScroll.Parent = HacksFrame
+HacksScroll.Active = true
+HacksScroll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HacksScroll.BackgroundTransparency = 1.000
+HacksScroll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HacksScroll.BorderSizePixel = 0
+HacksScroll.Position = UDim2.new(0, 0, 0.0420922227, 0)
+HacksScroll.Size = UDim2.new(0, 315, 0, 238)
+HacksScroll.ScrollBarThickness = 3
+
+Hacks.Name = "Hacks"
+Hacks.Parent = HacksScroll
+Hacks.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks.BorderSizePixel = 0
+Hacks.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks.Size = UDim2.new(0, 280, 0, 27)
+Hacks.Font = Enum.Font.SourceSansBold
+Hacks.Text = "Infinite Jump"
+Hacks.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks.TextSize = 14.000
+Hacks.MouseButton1Down:connect(function()
+    local InfiniteJumpEnabled = true 
+	game:GetService("UserInputService").JumpRequest:connect(function() 
+		if InfiniteJumpEnabled then 
+			game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping") 
+		end 
+	end) 
+end)
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = Hacks
+
+UIListLayout.Parent = HacksScroll
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+Hacks_2.Name = "Hacks"
+Hacks_2.Parent = HacksScroll
+Hacks_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_2.BorderSizePixel = 0
+Hacks_2.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_2.Size = UDim2.new(0, 280, 0, 27)
+Hacks_2.Font = Enum.Font.SourceSansBold
+Hacks_2.Text = "BTools"
+Hacks_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_2.TextSize = 14.000
+Hacks_2.MouseButton1Down:connect(function()
+    backpack = game:GetService("Players").LocalPlayer.Backpack
+
+	hammer = Instance.new("HopperBin")
+	hammer.Name = "Hammer"
+	hammer.BinType = 4
+	hammer.Parent = backpack
+
+	cloneTool = Instance.new("HopperBin")
+	cloneTool.Name = "Clone"
+	cloneTool.BinType = 3
+	cloneTool.Parent = backpack
+
+	grabTool = Instance.new("HopperBin")
+	grabTool.Name = "Grab"
+	grabTool.BinType = 2
+	grabTool.Parent = backpack
+end)
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Hacks_2
+
+Hacks_3.Name = "Hacks"
+Hacks_3.Parent = HacksScroll
+Hacks_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_3.BorderSizePixel = 0
+Hacks_3.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_3.Size = UDim2.new(0, 280, 0, 27)
+Hacks_3.Font = Enum.Font.SourceSansBold
+Hacks_3.Text = "Fly V3"
+Hacks_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_3.TextSize = 14.000
+Hacks_3.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = Hacks_3
+
+Hacks_4.Name = "Hacks"
+Hacks_4.Parent = HacksScroll
+Hacks_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_4.BorderSizePixel = 0
+Hacks_4.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_4.Size = UDim2.new(0, 280, 0, 27)
+Hacks_4.Font = Enum.Font.SourceSansBold
+Hacks_4.Text = "Prison Destroyer"
+Hacks_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_4.TextSize = 14.000
+Hacks_4.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/nu20tAZE"))()
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = Hacks_4
+
+Hacks_5.Name = "Hacks"
+Hacks_5.Parent = HacksScroll
+Hacks_5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_5.BorderSizePixel = 0
+Hacks_5.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_5.Size = UDim2.new(0, 280, 0, 27)
+Hacks_5.Font = Enum.Font.SourceSansBold
+Hacks_5.Text = "Noclip"
+Hacks_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_5.TextSize = 14.000
+Hacks_5.MouseButton1Down:connect(function()
+    game.Players.LocalPlayer.Character.Humanoid.MaxHealth = math.huge
+	game.Players.LocalPlayer.Character.Humanoid.Health = math.huge
+	while true do
+		game:GetService("RunService").Stepped:wait()
+		game.Players.LocalPlayer.Character.Head.CanCollide = false
+		game.Players.LocalPlayer.Character.Torso.CanCollide = false
+	end
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Hacks_5
+
+Hacks_6.Name = "Hacks"
+Hacks_6.Parent = HacksScroll
+Hacks_6.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_6.BorderSizePixel = 0
+Hacks_6.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_6.Size = UDim2.new(0, 280, 0, 27)
+Hacks_6.Font = Enum.Font.SourceSansBold
+Hacks_6.Text = "Fullbright"
+Hacks_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_6.TextSize = 14.000
+Hacks_6.MouseButton1Down:connect(function()
+    local Light = game:GetService("Lighting")
+
+	function dofullbright()
+		Light.Ambient = Color3.new(1, 1, 1)
+		Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+		Light.ColorShift_Top = Color3.new(1, 1, 1)
+	end
+
+	dofullbright()
+
+	Light.LightingChanged:Connect(dofullbright)local Light = game:GetService("Lighting")
+
+	function dofullbright()
+		Light.Ambient = Color3.new(1, 1, 1)
+		Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+		Light.ColorShift_Top = Color3.new(1, 1, 1)
+	end
+
+	dofullbright()
+
+	Light.LightingChanged:Connect(dofullbright)
+end)
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Hacks_6
+
+Hacks_7.Name = "Hacks"
+Hacks_7.Parent = HacksScroll
+Hacks_7.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_7.BorderSizePixel = 0
+Hacks_7.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_7.Size = UDim2.new(0, 280, 0, 27)
+Hacks_7.Font = Enum.Font.SourceSansBold
+Hacks_7.Text = "High WalkSpeed"
+Hacks_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_7.TextSize = 14.000
+Hacks_7.MouseButton1Down:connect(function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+end)
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = Hacks_7
+
+Hacks_8.Name = "Hacks"
+Hacks_8.Parent = HacksScroll
+Hacks_8.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_8.BorderSizePixel = 0
+Hacks_8.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_8.Size = UDim2.new(0, 280, 0, 27)
+Hacks_8.Font = Enum.Font.SourceSansBold
+Hacks_8.Text = "High JumpPower"
+Hacks_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_8.TextSize = 14.000
+Hacks_8.MouseButton1Down:connect(function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = Hacks_8
+
+Hacks_9.Name = "Hacks"
+Hacks_9.Parent = HacksScroll
+Hacks_9.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_9.BorderSizePixel = 0
+Hacks_9.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_9.Size = UDim2.new(0, 280, 0, 27)
+Hacks_9.Font = Enum.Font.SourceSansBold
+Hacks_9.Text = "Expand Hitbox"
+Hacks_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_9.TextSize = 14.000
+Hacks_9.MouseButton1Down:connect(function()
+    _G.HeadSize = 25
+	_G.Disabled = true
+
+	game:GetService('RunService').RenderStepped:connect(function()
+		if _G.Disabled then
+			for i,v in next, game:GetService('Players'):GetPlayers() do
+				if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+					pcall(function()
+						v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+						v.Character.HumanoidRootPart.Transparency = 0.7
+						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+						v.Character.HumanoidRootPart.Material = "Neon"
+						v.Character.HumanoidRootPart.CanCollide = false
+					end)
+				end
+			end
+		end
+	end)
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = Hacks_9
+
+Hacks_10.Name = "Hacks"
+Hacks_10.Parent = HacksScroll
+Hacks_10.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Hacks_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hacks_10.BorderSizePixel = 0
+Hacks_10.Position = UDim2.new(0.0539682545, 0, -0.00236126548, 0)
+Hacks_10.Size = UDim2.new(0, 280, 0, 27)
+Hacks_10.Font = Enum.Font.SourceSansBold
+Hacks_10.Text = "Alysse Script Hub"
+Hacks_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hacks_10.TextSize = 14.000
+Hacks_10.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/kuF4V79C"))()
+end)
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = Hacks_10
+
+T.Name = "T"
+T.Parent = Alysse
+T.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+T.BackgroundTransparency = 1.000
+T.BorderColor3 = Color3.fromRGB(0, 0, 0)
+T.BorderSizePixel = 0
+T.Position = UDim2.new(0.449570626, 0, 0.0344924927, 0)
+T.Size = UDim2.new(0, 104, 0, 18)
+T.Font = Enum.Font.SourceSansBold
+T.Text = "Version : BETA v0.2"
+T.TextColor3 = Color3.fromRGB(255, 255, 255)
+T.TextSize = 16.000
+T.TextWrapped = true
+
+Exit.Name = "Exit"
+Exit.Parent = Alysse
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.910353243, 0, 0.0252105258, 0)
+Exit.Size = UDim2.new(0, 21, 0, 20)
+Exit.Image = "rbxassetid://15421111228"
+Exit.MouseButton1Down:connect(function()
+    Alysse.Visible = false
+    Toggle.Visible = true
+end)
+
+FrameLine.Name = "FrameLine"
+FrameLine.Parent = Alysse
+FrameLine.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+FrameLine.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FrameLine.BorderSizePixel = 0
+FrameLine.Position = UDim2.new(0.0343202204, 0, 0.130944356, 0)
+FrameLine.Size = UDim2.new(0, 68, 0, 3)
+
+UICorner_14.Parent = FrameLine
+
+Tab1.Name = "Tab1"
+Tab1.Parent = Alysse
+Tab1.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Tab1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab1.BorderSizePixel = 0
+Tab1.Position = UDim2.new(0.024830699, 0, 0.199367091, 0)
+Tab1.Size = UDim2.new(0, 72, 0, 21)
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = Tab1
+
+Tab1BTN.Name = "Tab1BTN"
+Tab1BTN.Parent = Tab1
+Tab1BTN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tab1BTN.BackgroundTransparency = 1.000
+Tab1BTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab1BTN.BorderSizePixel = 0
+Tab1BTN.Position = UDim2.new(0.00447675912, 0, 0, 0)
+Tab1BTN.Size = UDim2.new(0, 71, 0, 21)
+Tab1BTN.Font = Enum.Font.SourceSansBold
+Tab1BTN.Text = "Executor"
+Tab1BTN.TextColor3 = Color3.fromRGB(223, 223, 223)
+Tab1BTN.TextSize = 14.000
+Tab1BTN.MouseButton1Down:connect(function()
+    ExecutorFrame.Visible = true
+    HacksFrame.Visible = false
+end)
+
+Tab2.Name = "Tab2"
+Tab2.Parent = Alysse
+Tab2.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Tab2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab2.BorderSizePixel = 0
+Tab2.Position = UDim2.new(0.024830699, 0, 0.313291132, 0)
+Tab2.Size = UDim2.new(0, 72, 0, 23)
+
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = Tab2
+
+Tab2BTN.Name = "Tab2BTN"
+Tab2BTN.Parent = Tab2
+Tab2BTN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tab2BTN.BackgroundTransparency = 1.000
+Tab2BTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab2BTN.BorderSizePixel = 0
+Tab2BTN.Position = UDim2.new(-0.00941212941, 0, 0.0434782617, 0)
+Tab2BTN.Size = UDim2.new(0, 72, 0, 21)
+Tab2BTN.Font = Enum.Font.SourceSansBold
+Tab2BTN.Text = "Hacks"
+Tab2BTN.TextColor3 = Color3.fromRGB(223, 223, 223)
+Tab2BTN.TextSize = 14.000
+Tab2BTN.MouseButton1Down:connect(function()
+    ExecutorFrame.Visible = false
+    HacksFrame.Visible = true
+end)
+
+ExecutorFrame.Name = "ExecutorFrame"
+ExecutorFrame.Parent = Alysse
+ExecutorFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ExecutorFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorFrame.BorderSizePixel = 0
+ExecutorFrame.Position = UDim2.new(0.239669487, 0, 0.108786665, 0)
+ExecutorFrame.Size = UDim2.new(0, 315, 0, 250)
+
+UICorner_17.Parent = ExecutorFrame
+
+ExecuteFrame.Name = "ExecuteFrame"
+ExecuteFrame.Parent = ExecutorFrame
+ExecuteFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteFrame.BackgroundTransparency = 1.000
+ExecuteFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteFrame.BorderSizePixel = 0
+ExecuteFrame.Position = UDim2.new(0.0319707952, 0, 7.08007792e-06, 0)
+ExecuteFrame.Size = UDim2.new(0, 296, 0, 202)
+ExecuteFrame.Font = Enum.Font.SourceSans
+ExecuteFrame.MultiLine = true
+ExecuteFrame.Text = ""
+ExecuteFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteFrame.TextSize = 10.000
+ExecuteFrame.TextWrapped = true
+ExecuteFrame.TextXAlignment = Enum.TextXAlignment.Left
+ExecuteFrame.TextYAlignment = Enum.TextYAlignment.Top
+
+ExecuteBTN.Name = "ExecuteBTN"
+ExecuteBTN.Parent = ExecutorFrame
+ExecuteBTN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteBTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteBTN.BorderSizePixel = 0
+ExecuteBTN.Position = UDim2.new(0.0343511663, 0, 0.848633647, 0)
+ExecuteBTN.Size = UDim2.new(0, 72, 0, 25)
+ExecuteBTN.Font = Enum.Font.SourceSansBold
+ExecuteBTN.Text = "Execute"
+ExecuteBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteBTN.TextSize = 16.000
+ExecuteBTN.TextWrapped = true
+ExecuteBTN.MouseButton1Down:connect(function()
+    loadstring(ExecuteFrame.Text)()
+end)
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = ExecuteBTN
+
+ClearBTN.Name = "ClearBTN"
+ClearBTN.Parent = ExecutorFrame
+ClearBTN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ClearBTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ClearBTN.BorderSizePixel = 0
+ClearBTN.Position = UDim2.new(0.328850061, 0, 0.848633647, 0)
+ClearBTN.Size = UDim2.new(0, 59, 0, 25)
+ClearBTN.Font = Enum.Font.SourceSansBold
+ClearBTN.Text = "Clear"
+ClearBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClearBTN.TextSize = 16.000
+ClearBTN.TextWrapped = true
+ClearBTN.MouseButton1Down:connect(function()
+    ExecuteFrame.Text = ""
+end)
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = ClearBTN
+
+CPBTN.Name = "CPBTN"
+CPBTN.Parent = ExecutorFrame
+CPBTN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CPBTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CPBTN.BorderSizePixel = 0
+CPBTN.Position = UDim2.new(0.636689663, 0, 0.848633647, 0)
+CPBTN.Size = UDim2.new(0, 106, 0, 25)
+CPBTN.Font = Enum.Font.SourceSansBold
+CPBTN.Text = "Coming Soon"
+CPBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
+CPBTN.TextSize = 16.000
+CPBTN.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = CPBTN
+
+AnotherLine.Name = "AnotherLine"
+AnotherLine.Parent = ExecutorFrame
+AnotherLine.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AnotherLine.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AnotherLine.BorderSizePixel = 0
+AnotherLine.Position = UDim2.new(0.0315108038, 0, 0.80803293, 0)
+AnotherLine.Size = UDim2.new(0, 297, 0, 1)
+
+UICorner_21.Parent = AnotherLine
+
+Toggle.Name = "Toggle"
+Toggle.Parent = AlysseBETA
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BorderSizePixel = 0
+Toggle.Position = UDim2.new(0.0297339596, 0, 0.0640668496, 0)
+Toggle.Size = UDim2.new(0, 37, 0, 37)
+Toggle.Visible = false
+Toggle.Image = "rbxassetid://14334029762"
+Toggle.MouseButton1Down:connect(function()
+    Alysse.Visible = true
+    Toggle.Visible = false
+end)
+
+UICorner_22.CornerRadius = UDim.new(1, 66)
+UICorner_22.Parent = Toggle
+
+local function IBHEAQ_fake_script() -- AlysseBETA.LocalScript 
+	local script = Instance.new('LocalScript', AlysseBETA)
+
+	frame = script.Parent.Alysse
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(IBHEAQ_fake_script)()
+local function YUQJQ_fake_script() -- AlysseBETA.LocalScript 
+	local script = Instance.new('LocalScript', AlysseBETA)
+
+	frame = script.Parent.Toggle
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(YUQJQ_fake_script)()
