@@ -1,6 +1,4 @@
-print("Alysse is loaded")
-
-
+print("Alysse is loaded!")
 local AlysseBETA = Instance.new("ScreenGui")
 local Alysse = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
